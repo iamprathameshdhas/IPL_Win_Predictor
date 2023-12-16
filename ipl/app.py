@@ -70,8 +70,8 @@ if st.button('Predict Probability'):
     lossprob = result[0][0]
     winprob = result[0][1]
 
-    st.header(battingteam+"- "+str(round(winprob*100))+"%")
+    st.header(battingteam + " : " +str(round(winprob*100))+"%")
 
-    st.header(bowlingteam+"- "+str(round(lossprob*100))+"%")
+    st.header(bowlingteam + " : " +str(round(lossprob*100))+"%")
 
 
